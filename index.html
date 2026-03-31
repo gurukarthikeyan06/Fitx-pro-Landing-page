@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FitX Pro - Premium Fitness</title>
+<meta name="description" content="Premium fitness landing page">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header id="navbar">
+  <h2>FitX Pro</h2>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Join</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Level Up Your Fitness 🚀</h1>
+    <p>AI-powered workouts. Real results.</p>
+    <button onclick="scrollToForm()">Start Now</button>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="features">
+  <h2>Why Choose Us</h2>
+  <div class="cards">
+    <div class="card">💪 Smart Training</div>
+    <div class="card">🥗 Diet AI</div>
+    <div class="card">📈 Live Tracking</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About FitX Pro</h2>
+  <p>We combine AI + fitness science to deliver personalized results faster.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Join Now</h2>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <button type="submit">Get Started</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 FitX Pro</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
